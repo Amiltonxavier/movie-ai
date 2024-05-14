@@ -1,30 +1,24 @@
-# React + TypeScript + Vite
+# Aplicação de Listagem de Filmes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Visão Geral
 
-Currently, two official plugins are available:
+Esta é uma aplicação web para listar e visualizar informações sobre filmes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- **React**: Uma biblioteca JavaScript para construir interfaces de usuário.
+- **Tailwind CSS**: Um framework de CSS utilitário para criar rapidamente designs personalizados.
+- **Lucide React**: Um conjunto de ícones SVG React para uso em projetos web.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Funcionalidades
 
-- Configure the top-level `parserOptions` property like this:
+1. **Listagem de Filmes**: Os filmes são exibidos em uma interface de lista, com cartões contendo informações básicas sobre cada filme, como título, imagem de capa e classificação.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+2. **Responsividade**: A aplicação é responsiva e se adapta a diferentes tamanhos de tela, proporcionando uma experiência consistente em dispositivos móveis e desktops.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Conclusão
+
+Esta aplicação de listagem de filmes combina o poder do React com a praticidade do Tailwind CSS para fornecer uma experiência de usuário elegante e responsiva. Os ícones fornecidos pelo Lucide React adicionam um toque visual adicional, tornando a aplicação mais atraente e fácil de usar.
+
+![Exemplo de Imagem](src/assets/layout.png)

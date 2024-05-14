@@ -1,6 +1,6 @@
-import post1 from "../assets/post-1.png"
-import post2 from "../assets/post-2.png"
-import post3 from "../assets/post-3.png"
+import post1 from "../assets/films/post-1.png"
+import post2 from "../assets/films/post-2.png"
+import post3 from "../assets/films/post-3.png"
 export const FILMS = [
     {
         id: 1,
@@ -20,7 +20,7 @@ export const FILMS = [
     },
     {
         id: 3,
-        title: "Oppenheimer",
+        title: "Indiana Jones e o Chamado do Destino",
         rating: 4.4,
         img: post3,
         duration: "3:15:00",
